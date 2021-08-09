@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './styles.css';
 
 //components!
-import './components/NavBar';
-import { Component } from 'react';
-import { render } from '@testing-library/react';
+import "./components/NavBar";
+import NavBar from './components/NavBar';
+
 
 
 class App extends Component {
