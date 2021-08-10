@@ -1,9 +1,10 @@
 
+import React, { Component } from 'react';
 import './App.css';
 import './styles.css';
 
 //components!
-import "./components/NavBar";
+import './components/NavBar';
 import NavBar from './components/NavBar';
 
 
