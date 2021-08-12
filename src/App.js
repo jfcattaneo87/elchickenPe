@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
+import { CartWidget } from './components/cartWidget/CartWidget';
 
 
 //components!
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-          
+          <CartWidget />
       </div>
     );
   }
