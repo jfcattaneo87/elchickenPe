@@ -7,9 +7,9 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 export const CartWidget = () =>{
 
     return(
-       
+        <div>
             <FontAwesomeIcon icon={faCoffee} />
-    
+        </div>
 
     )
 }
