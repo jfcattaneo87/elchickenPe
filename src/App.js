@@ -14,8 +14,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <CartWidget />
-        <NavBar />
+         
+        <NavBar />  <CartWidget />
       </div>
     );
   }
