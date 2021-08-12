@@ -15,7 +15,8 @@ class App extends Component {
     return (
       <div className="App">
          
-        <NavBar />  <CartWidget />
+         <CartWidget />
+        <NavBar />  
       </div>
     );
   }
